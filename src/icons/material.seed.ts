@@ -1,6 +1,6 @@
 import {Icon} from './icon.model';
 
-export const Icons : Record<string, Icon> = {
+export const Icons = {
   '360': {
     name: '360',
     type: 'Material',

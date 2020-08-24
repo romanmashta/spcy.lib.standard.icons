@@ -1,8 +1,6 @@
-export type Iconset = 'Material' | 'FontAwesome';
-
 export interface Icon {
   name: string;
-  type: Iconset;
+  type: string;
   category: string;
   tags: string[];
 }
